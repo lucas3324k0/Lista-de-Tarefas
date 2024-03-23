@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Lista de Tarefas</title>
+</head>
+<body>
+    <div class="container">
+        <div class="tarefa">
+            <input type="text"  id="inputTarefas" placeholder="Digite sua tarefa">
+            <button type="submit" onclick="adcionarTarefa()">Adcionar</button>
+        </div>
+        <div class="postuacao">
+            <p id="concluidas">COMPLETAS: <h4 class="c">0</h4></p>
+            <p id="concluidas">CANCELADAS: <h4 class="f">0</h4></p>
+        </div>
+        <!-- CONTEUDO TAREFAS -->
+        <div class="addTarefas" id="addTarefas"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,98 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    background-color: rgb(59, 59, 59);
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+}
+
+.container {
+    overflow: hidden;
+    width: 400px;
+    height: 550px;
+    display: grid;
+    background-color: rgb(66, 66, 66);
+    justify-content: center;
+    grid-template-rows: 20px 20px;
+    border-radius: 15px;
+    box-shadow: inset 1px 1px 10px rgb(0, 0, 0);
+}
+
+.tarefa {
+    margin-top: 20px;
+    height: 20px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tarefa input{
+    width: 200px;
+    height: 20px;
+    border-radius: 5px;
+    overflow: none;
+    outline: none;
+    padding: 2px 4px;
+    border: none;
+}
+
+.tarefa button{
+    color: white;
+    border: 1px solid rgb(109, 109, 109);
+    background-color: rgb(58, 58, 58);
+    border-radius: 5px;
+    padding: 4px 15px;
+}
+
+.tarefa button:hover {
+    background-color: rgb(100, 100, 100);
+}
+
+.addTarefas {
+    color: rgb(0, 0, 0);
+    width: 350px;
+    border-radius: 10px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.addTarefas li {
+    width: 320px;
+    padding: 3px 20px;
+    margin-top: 10px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    box-shadow: inset 1px 1px 10px rgb(94, 94, 94);
+}
+
+.addTarefas li img {
+    width: 25px;
+    opacity: 0%;
+    border-radius: 50px;
+}
+
+li:hover img{
+    cursor: pointer;
+    opacity: 1;
+    box-shadow: 1px 1px 10px rgb(172, 172, 172);
+    transition: 1s;
+}
+
+.postuacao {
+    margin-top: 25px;
+    height: 20px;
+    display: flex;
+    justify-content: space-around;
+    padding: 5px 45px;
+}
+
